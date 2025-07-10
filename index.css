@@ -1,15 +1,306 @@
 body{
     margin: 0;
-}
 
-.responsive-img{
+}
+.header{
+    display: flex;
+    
+}
+.portfoilo{
+text-align: center;
+padding: 30px;
+font-family: 'Courier New', Courier, monospace;
+
+}
+.main-header{
+height: 100vh;
+width: 40%;
+
+background-color: blue;
+color: white;
+}
+.images{
+    border-radius: 50%;
+max-width: 400px;
+margin: 40px;
+height: 400px;
+background-color: white;
+margin-left: 20%;
+}
+.header-text{
+    padding-top: 25%;
+    text-align: center;
+}
+.header-text h1{
+font-size: 7rem;
+}
+.text-design{
+    color: blue;
+}
+.header-text p{
+    font-size: 30px;
+}
+.creative{
+    text-align: center;
     width: 100%;
-    height: auto;
-    display: block;
+    background-color: blue;
+    padding-top: 10%;
+}
+.header-icon{
+    padding-top: 10%;
+    padding-left: 50%;
+    display: flex;
+    gap: 10%;
+    font-size: 20px;
+}
+.social-icon{
+  border-radius: 50%;
+  background-color: white;
+  padding: 30px;
+  color: blue;
+  
+  box-shadow: 0px 10px 10px black;
+    transition: background-color 0.3s, transform 0.3s; 
+}
+.card{
+    max-width: 300px;
+    height: 500px;
+    
+    box-shadow: 0px 5px 5px;
+}
+.card-header{
+    display: flex;
+    gap: 15px;
+    text-align: center;
+    justify-content: center;
+    align-items: center;
+    margin-top: 5%;
+
+}
+.card-h3{
+    padding: 30px;
+    text-align: center;
+}
+.icon{
+    font-size: 50px;
+    text-align: center;
+    padding: 10%;
 }
 
-@media (max-width:750px) {
-    .responsive-img{
-      width: 100%;  
-    }
+.btn1{
+margin-top: 40%;
+}
+
+.img{
+    max-width: 500px;
+    height: 500px;
+    display: block;
+    gap: 20px;
+}
+.imgs{
+   max-width: 300px; 
+   height: 300px;
+   display: block;
+} 
+.contain{
+    display: flex;
+    gap: 5%;
+    justify-content: center;
+
+}
+.text-col{
+   
+   padding-top: 10%; 
+text-align: center;
+   max-width: 700px; 
+    background-color:blue;
+    color: white;
+}
+.text-img{
+    display: flex;
+    gap: 3px;
+     margin-top: 15px;
+     justify-content: center;
+}
+.portfolio-section{
+    text-align: center;
+    margin-top: 10px;
+    font-size: 25px;
+}
+.testimonial-section{
+    text-align: center;
+    margin-top: 10%;
+    box-shadow: 0px 10px 10px blue ;  
+}
+.testi-sec{
+    text-align: center;
+     margin-top: 10%;
+}
+.testimonial-section h4{
+    padding-top: 15px;
+}
+.img1{
+border-radius: 50%;
+width: 150px;
+height: 150px;
+
+}
+.hire-header{
+ 
+    border-style:solid;
+    border-width: 2px;
+    width: 50%;
+    padding: 14px;
+
+}
+.hire-section{
+     padding-top: 10%;
+    text-align: center;
+   
+}
+.hire-container{
+   display: flex;
+    padding-top: 10%;
+   
+ justify-content: center;
+ align-items: center;
+}
+.footer{
+    display: flex;
+    background-color: blue;
+    color: white;
+    gap: 20%;
+    text-align: center;
+}
+ .page{
+    display: flex;
+    padding-top: 2%;
+     text-align: center;
+     gap: 20%;
+     
+}
+
+.social{
+    display: flex;
+     padding-top: 2%;
+     font-size: 30px;
+    gap: 20%;
+    
+} 
+
+
+
+
+@media (max-width:950px) {
+  .main-header{
+width: 50%;
+height: 50vh;
+}
+ .nav{
+    flex-direction: column;
+    justify-content: end;
+    align-items: end;
+ } 
+
+  .images{
+
+max-width: 150px;
+margin: 20px;
+height: 150px;
+background-color: white;
+margin-left: 10%;
+}
+
+.header-text h1{
+font-size: 30px;
+}
+.header-text p{
+    font-size: 1rem;
+}
+.card h4{
+    font-size: 10px;
+}
+.card-h3{
+    padding: 8px;
+    text-align: center;
+}
+.card-text{
+    font-size: 10px;
+}
+.btn1{
+    font-size: 5px;
+    max-width: 20px;
+    
+}
+.social-icon{
+  padding: 10px;
+ 
+}
+.header-icon{
+    padding-top: 4%;
+    padding-left: 40%;
+    display: flex;
+    gap: 4%;
+    font-size: 10px;
+}
+
+.icon{
+    font-size: 20px;
+    text-align: center;
+    padding: 10%;
+}
+.img{
+    max-width: 150px;
+    height: 150px;
+    display: block;
+    gap: 20px;
+}
+.imgs{
+   max-width: 150px; 
+   height: 200px;
+   display: block;
+} 
+
+.text-col{
+   
+   
+   max-width: 150px; 
+    font-size: 8px;
+}
+.text-img{
+    gap: 2px;
+}
+.testimonial-section{
+   max-width: 300px;
+   font-size: 10px;
+}
+.txt{
+    font-size: 5px;
+}
+
+.footer{
+    display: flex;
+    background-color: blue;
+    color: white;
+    gap: 3%;
+    text-align: center;
+     font-size: 8px;
+}
+ .page{
+    display: block;
+    padding-top: 2%;
+     text-align: center;
+     gap: 5%;
+     
+}
+
+.social{
+    display: block;
+     padding-top: 2%;
+     font-size: 8px;
+    gap: 5%;
+    
+} 
+
+
 }
