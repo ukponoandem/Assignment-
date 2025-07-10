@@ -1,0 +1,15 @@
+body{
+    margin: 0;
+}
+
+.responsive-img{
+    width: 100%;
+    height: auto;
+    display: block;
+}
+
+@media (max-width:750px) {
+    .responsive-img{
+      width: 100%;  
+    }
+}
